@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #E4E4E4; }
+  body .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; }
+    body .header .title_ {
+      color: #FFB3B3;
+      font-size: 3em;
+      text-shadow: 1px 1px black, -1px -1px black; }
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    body .container_ {
+      width: 50%;
+      height: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      body .container_text {
+        width: 95%;
+        height: 65%;
+        resize: none;
+        border: none;
+        padding: 10px;
+        border-radius: 5px; }
+        body .container_text:focus {
+          border: none;
+          outline: none; }
+      body .container_option {
+        width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly; }
+    body .container .btn {
+      background-color: #CCCCCC;
+      -webkit-box-shadow: inset -6px -10px #ffb3b3, inset 6px 0px #ffb3b3, 0px -1px #4d4d4d;
+      box-shadow: inset -6px -10px #ffb3b3, inset 6px 0px #ffb3b3, 0px -1px #4d4d4d;
+      border: none;
+      color: #fff;
+      font-size: 1.4rem;
+      padding: 5px 20px;
+      border-radius: 4px; }
